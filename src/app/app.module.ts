@@ -3,10 +3,11 @@ import { BrowserModule } from '@angular/platform-browser';
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
-
+import { StarWarsComponent } from "../Componests/star-wars/star-wars.component";
 @NgModule({
   declarations: [
-    AppComponent
+    AppComponent,
+    StarWarsComponent
   ],
   imports: [
     BrowserModule,
